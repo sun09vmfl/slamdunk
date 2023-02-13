@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/slamdunk/static/css/main.fa47df99.css",
+    "main.js": "/slamdunk/static/js/main.721983b9.js",
+    "static/media/slamdunk.png": "/slamdunk/static/media/slamdunk.20c6dafc9aa820c51d91.png",
+    "static/media/안선생님.png": "/slamdunk/static/media/안선생님.b3ddf3102e20ddd157bb.png",
+    "static/media/서태웅.jpeg": "/slamdunk/static/media/서태웅.28667a1c30a21dde5421.jpeg",
+    "static/media/송태섭.jpeg": "/slamdunk/static/media/송태섭.bc0f6503e94c9860b59a.jpeg",
+    "static/media/채치수.jpeg": "/slamdunk/static/media/채치수.eacd2f75efe81382cb3e.jpeg",
+    "static/media/이정환.jpeg": "/slamdunk/static/media/이정환.5e30bdeffaf9a7a186f8.jpeg",
+    "static/media/강백호.jpeg": "/slamdunk/static/media/강백호.8cff12e6e7c17c4899d7.jpeg",
+    "static/media/정대만.jpeg": "/slamdunk/static/media/정대만.ffd8ca39a26e915eb2dd.jpeg",
+    "static/media/신준섭.jpeg": "/slamdunk/static/media/신준섭.cdcf5b5e2658c2d73ea1.jpeg",
+    "static/media/채소연.jpeg": "/slamdunk/static/media/채소연.8f7f706e92a730d64b83.jpeg",
+    "static/media/윤대협.jpeg": "/slamdunk/static/media/윤대협.cfa6a66b4e3c4e8943fb.jpeg",
+    "static/media/양한나.jpeg": "/slamdunk/static/media/양한나.3d0ca5c860a50d5299be.jpeg",
+    "static/media/권준호.jpeg": "/slamdunk/static/media/권준호.4c6706f7bfe976b819e7.jpeg",
+    "static/media/전호장.jpeg": "/slamdunk/static/media/전호장.122542666e61e0047020.jpeg",
+    "static/media/정우성.jpeg": "/slamdunk/static/media/정우성.a3a504a3c85fe2f10ff6.jpeg",
+    "static/media/양호열.jpeg": "/slamdunk/static/media/양호열.dde5c4b82268d4b516bf.jpeg",
+    "index.html": "/slamdunk/index.html",
+    "main.fa47df99.css.map": "/slamdunk/static/css/main.fa47df99.css.map",
+    "main.721983b9.js.map": "/slamdunk/static/js/main.721983b9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fa47df99.css",
+    "static/js/main.721983b9.js"
+  ]
+}
