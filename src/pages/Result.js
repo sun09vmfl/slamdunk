@@ -76,8 +76,8 @@ export default Result;
 
 const Container = styled.div`
   display: flex;
-  height: 120vh;
-  width: 100%;
+  width: 370px;
+  margin: 0 auto;
   background: #fffacd;
   flex-direction: column;
 `;
@@ -86,7 +86,7 @@ const Header = styled.div`
   color: white;
   font-size: 35pt;
   font-family: 'GangwonEdu_OTFBoldA', 'Noto Sans KR', sans-serif;
-  height: 10vh;
+  height: 100px;
   width: 100%;
   background: #ffa07a;
   display: flex;
@@ -96,7 +96,7 @@ const Header = styled.div`
 
 const Wrapper = styled.div`
   margin-top: 70px;
-  height: 80vh;
+  height: auto;
   width: 100%;
   display: flex;
   flex-direction: column;
