@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# slamdunk 캐릭터로 알아보는 잘 어울리는 캐릭터
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
