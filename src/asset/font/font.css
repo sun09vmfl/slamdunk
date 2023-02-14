@@ -1,5 +1,18 @@
 /* [0] */
 @font-face {
+  font-family: 'GangwonEdu_OTFBoldA';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEdu_OTFBoldA.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'KOTRA_BOLD-Bold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.1/KOTRA_BOLD-Bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
   font-family: 'Noto Sans KR';
   font-style: normal;
   font-weight: 400;
@@ -4142,7 +4155,7 @@
   font-weight: 45 920;
   font-style: normal;
   font-display: swap;
-  src: url(../fonts/PretendardVariable.woff2) format('woff2-variations');
+  src: url(./fonts/PretendardVariable.woff2) format('woff2-variations');
 }
 
 a {

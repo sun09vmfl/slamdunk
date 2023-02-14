@@ -1,8 +1,11 @@
 import React from 'react';
 import styled from 'styled-components';
-import PangImage from '../asset/images/slamdunk.png';
+import PangImage from '../asset/images/slamdunk.jpg';
+import back from '../asset/images/common.jpg';
 import Button from 'react-bootstrap/Button';
 import { useNavigate } from 'react-router-dom';
+import '../style/home.css';
+import '../asset/font/font.css';
 
 const Home = () => {
   const navigate = useNavigate();
@@ -11,17 +14,17 @@ const Home = () => {
     navigate('/qustions');
   };
   return (
-    <Wrapper style={{ maxWidth: '920px', margin: '0 auto' }}>
-      <Header>
-        🏀 나와 어울리는 <br />
-        슬램덩크 속 캐릭터는? 🏀
+    <Wrapper className="main">
+      <Header className="header">
+        나와 어울리는🏀 <br />
+        슬램덩크 속 캐릭터는?
       </Header>
       <Contents>
-        <Title>나와 어울리는 인물은?</Title>
-        <LogoImage>
-          <img src={PangImage} className="rounded-circle" alt="..." width={550} height={550} />
+        <Title className="contents">나와 어울리는 인물은?</Title>
+        <LogoImage className="img">
+          <img src={PangImage} />
         </LogoImage>
-        <Desc>가벼운 설문으로 나와 잘 어울리는 인물을 찾아봅시다.</Desc>
+        <Desc className="contents">가벼운 설문으로 나와 잘 어울리는 인물을 찾아봅시다.</Desc>
         <Button style={{ marginTop: '10px', backgroundColor: '#FF6E31', border: 'none', marginBottom: '30px' }} onClick={handleClickButton}>
           테스트 시작하기
         </Button>
