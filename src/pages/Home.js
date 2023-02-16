@@ -36,8 +36,9 @@ const Home = () => {
 export default Home;
 
 const Wrapper = styled.div`
-  height: 800px;
-  width: 370px;
+  height: 100%;
+  width: 100%;
+  min-width: 350px;
   max-width: 520px;
 `;
 

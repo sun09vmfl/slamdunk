@@ -76,7 +76,10 @@ export default Result;
 
 const Container = styled.div`
   display: flex;
-  width: 370px;
+  height: 100%;
+  width: 100%;
+  min-width: 350px;
+  max-width: 520px;
   margin: 0 auto;
   background: #fffacd;
   flex-direction: column;

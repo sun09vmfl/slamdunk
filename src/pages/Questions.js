@@ -122,10 +122,11 @@ export default Question;
 
 const Container = styled.div`
   display: flex;
-  height: 800px;
-  width: 370px;
-  margin: 0 auto;
+  height: 100%;
+  width: 100%;
+  min-width: 350px;
   max-width: 520px;
+  margin: 0 auto;
   background: #ffa07a;
   align-items: center;
   flex-direction: column;
