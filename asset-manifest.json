@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/slamdunk/static/css/main.1b231b1f.css",
-    "main.js": "/slamdunk/static/js/main.8f7c9fae.js",
+    "main.css": "/slamdunk/static/css/main.4410caf7.css",
+    "main.js": "/slamdunk/static/js/main.46cb9451.js",
     "static/media/PretendardVariable.woff2": "/slamdunk/static/media/PretendardVariable.36b3a87cd98126711b2b.woff2",
     "static/media/SpoqaHanSansNeo-Light.woff": "/slamdunk/static/media/SpoqaHanSansNeo-Light.1cb73b3acae88adbdd59.woff",
     "static/media/slamdunk.jpg": "/slamdunk/static/media/slamdunk.c2fde82a05c4c994b7a7.jpg",
@@ -29,11 +29,11 @@
     "static/media/jws.jpeg": "/slamdunk/static/media/jws.a3a504a3c85fe2f10ff6.jpeg",
     "static/media/yhy.jpeg": "/slamdunk/static/media/yhy.dde5c4b82268d4b516bf.jpeg",
     "index.html": "/slamdunk/index.html",
-    "main.1b231b1f.css.map": "/slamdunk/static/css/main.1b231b1f.css.map",
-    "main.8f7c9fae.js.map": "/slamdunk/static/js/main.8f7c9fae.js.map"
+    "main.4410caf7.css.map": "/slamdunk/static/css/main.4410caf7.css.map",
+    "main.46cb9451.js.map": "/slamdunk/static/js/main.46cb9451.js.map"
   },
   "entrypoints": [
-    "static/css/main.1b231b1f.css",
-    "static/js/main.8f7c9fae.js"
+    "static/css/main.4410caf7.css",
+    "static/js/main.46cb9451.js"
   ]
 }
