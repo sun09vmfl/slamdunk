@@ -1,16 +1,24 @@
 .main {
-  background: linear-gradient(180deg, #e67130 7.13%, #f39d6c 20.63%, rgba(232, 151, 106, 0.774648) 53.13%, rgba(249, 186, 150, 0.343401) 73.38%, rgba(244, 130, 65, 0) 89.5%);
+  background: linear-gradient(
+    180deg,
+    #e67130 7.13%,
+    #f39d6c 20.63%,
+    rgba(232, 151, 106, 0.774648) 53.13%,
+    rgba(249, 186, 150, 0.343401) 73.38%,
+    rgba(244, 130, 65, 0) 89.5%
+  );
   width: 370px;
-  height: 800px;
+  height: 900px;
   max-width: 520px;
   margin: 0 auto;
 }
 .header {
-  font-family: 'KOTRA_BOLD-Bold', 'Noto Sans KR', '맑은 고딕', sans-serif;
+  font-family: "KOTRA_BOLD-Bold", "Noto Sans KR", "맑은 고딕", sans-serif;
 }
 .main .contents {
   font-weight: bolder;
-  font-family: 'GangwonEdu_OTFBoldA', 'Noto Sans KR', 'Pretendard Variable', sans-serif;
+  font-family: "GangwonEdu_OTFBoldA", "Noto Sans KR", "Pretendard Variable",
+    sans-serif;
 }
 .img img {
   border-radius: 10%;
