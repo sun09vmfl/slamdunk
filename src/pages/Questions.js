@@ -1,8 +1,8 @@
-import React from 'react';
-import styled from 'styled-components';
-import { ProgressBar, Button } from 'react-bootstrap';
-import { QuestionData } from '../asset/data/qustionsdata';
-import { createSearchParams, useNavigate } from 'react-router-dom';
+import React from "react";
+import styled from "styled-components";
+import { ProgressBar, Button } from "react-bootstrap";
+import { QuestionData } from "../asset/data/qustionsdata";
+import { createSearchParams, useNavigate } from "react-router-dom";
 
 const Question = () => {
   // const [selectedData, setSelectedData] = React.useState({});
@@ -10,21 +10,28 @@ const Question = () => {
   const navigate = useNavigate();
 
   const [totalScore, setTotalScore] = React.useState([
-    { id: 'EI', score: 0 },
-    { id: 'SN', score: 0 },
-    { id: 'TF', score: 0 },
-    { id: 'JP', score: 0 },
+    { id: "EI", score: 0 },
+    { id: "SN", score: 0 },
+    { id: "TF", score: 0 },
+    { id: "JP", score: 0 },
   ]);
 
   const handleClickAnswer = (add, type) => {
-    const newScore = totalScore.map(s => (s.id === type ? { id: s.id, score: s.score + add } : s));
+    const newScore = totalScore.map((s) =>
+      s.id === type ? { id: s.id, score: s.score + add } : s
+    );
     setTotalScore(newScore);
     if (QuestionData.length !== questionNo + 1) {
       setQuestionNo(questionNo + 1);
     } else {
-      const mbti = newScore.reduce((acc, curr) => acc + (curr.score >= 2 ? curr.id.substring(0, 1) : curr.id.substring(1, 2)), '');
+      const mbti = newScore.reduce(
+        (acc, curr) =>
+          acc +
+          (curr.score >= 2 ? curr.id.substring(0, 1) : curr.id.substring(1, 2)),
+        ""
+      );
       navigate({
-        pathname: '/result',
+        pathname: "/result",
         search: `?${createSearchParams({
           mbti: mbti,
         })}`,
@@ -84,7 +91,7 @@ const Question = () => {
         animated
         now={(questionNo / QuestionData.length) * 100}
         style={{
-          width: '80%',
+          width: "80%",
           marginTop: 20,
         }}
       />
@@ -94,7 +101,11 @@ const Question = () => {
           {QuestionData[questionNo].title}
         </Title>
         <ButtonGroup>
-          <Button variant="warning" onClick={() => handleClickAnswer(1, QuestionData[questionNo].type)} style={{ width: '40%', minHeight: '200px', fontSize: '15pt' }}>
+          <Button
+            variant="warning"
+            onClick={() => handleClickAnswer(1, QuestionData[questionNo].type)}
+            style={{ width: "40%", minHeight: "200px", fontSize: "15pt" }}
+          >
             {QuestionData[questionNo].answera}
             {/* {questionNo > 0 ? selectedData.answera : QuestionData[0].answera} */}
           </Button>
@@ -102,10 +113,10 @@ const Question = () => {
             variant="warning"
             onClick={() => handleClickAnswer(0, QuestionData[questionNo].type)}
             style={{
-              width: '40%',
-              marginLeft: '20px',
-              minHeight: '200px',
-              fontSize: '15pt',
+              width: "40%",
+              marginLeft: "20px",
+              minHeight: "200px",
+              fontSize: "15pt",
             }}
           >
             {QuestionData[questionNo].answerb}
@@ -122,7 +133,7 @@ export default Question;
 
 const Container = styled.div`
   display: flex;
-  height: 100%;
+  height: 100vh;
   width: 100%;
   min-width: 350px;
   max-width: 520px;
@@ -130,7 +141,8 @@ const Container = styled.div`
   background: #ffa07a;
   align-items: center;
   flex-direction: column;
-  font-family: 'GangwonEdu_OTFBoldA', 'Noto Sans KR', 'Pretendard Variable', sans-serif;
+  font-family: "GangwonEdu_OTFBoldA", "Noto Sans KR", "Pretendard Variable",
+    sans-serif;
 `;
 
 const Contents = styled.div`
@@ -147,13 +159,15 @@ const Title = styled.div`
   text-align: center;
   color: white;
   font-size: 30pt;
-  font-family: 'GangwonEdu_OTFBoldA', 'Noto Sans KR', 'Pretendard Variable', sans-serif;
+  font-family: "GangwonEdu_OTFBoldA", "Noto Sans KR", "Pretendard Variable",
+    sans-serif;
   font-weight: 550;
   margin-top: 20px;
 `;
 
 const ButtonGroup = styled.div`
-  font-family: 'GangwonEdu_OTFBoldA', 'Noto Sans KR', 'Pretendard Variable', sans-serif;
+  font-family: "GangwonEdu_OTFBoldA", "Noto Sans KR", "Pretendard Variable",
+    sans-serif;
   margin-top: 40px;
   display: flex;
   flex-direction: row;

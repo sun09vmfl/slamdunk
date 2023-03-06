@@ -1,17 +1,17 @@
-import React from 'react';
-import styled from 'styled-components';
-import PangImage from '../asset/images/slamdunk.jpg';
-import back from '../asset/images/common.jpg';
-import Button from 'react-bootstrap/Button';
-import { useNavigate } from 'react-router-dom';
-import '../style/home.css';
-import '../asset/font/font.css';
+import React from "react";
+import styled from "styled-components";
+import PangImage from "../asset/images/slamdunk.jpg";
+import back from "../asset/images/common.jpg";
+import Button from "react-bootstrap/Button";
+import { useNavigate } from "react-router-dom";
+import "../style/home.css";
+import "../asset/font/font.css";
 
 const Home = () => {
   const navigate = useNavigate();
 
   const handleClickButton = () => {
-    navigate('/qustions');
+    navigate("/qustions");
   };
   return (
     <Wrapper className="main">
@@ -24,8 +24,18 @@ const Home = () => {
         <LogoImage className="img">
           <img src={PangImage} />
         </LogoImage>
-        <Desc className="contents">가벼운 설문으로 나와 잘 어울리는 인물을 찾아봅시다.</Desc>
-        <Button style={{ marginTop: '10px', backgroundColor: '#FF6E31', border: 'none', marginBottom: '30px' }} onClick={handleClickButton}>
+        <Desc className="contents">
+          가벼운 설문으로 나와 잘 어울리는 인물을 찾아봅시다.
+        </Desc>
+        <Button
+          style={{
+            marginTop: "10px",
+            backgroundColor: "#FF6E31",
+            border: "none",
+            marginBottom: "30px",
+          }}
+          onClick={handleClickButton}
+        >
           테스트 시작하기
         </Button>
       </Contents>
@@ -36,7 +46,7 @@ const Home = () => {
 export default Home;
 
 const Wrapper = styled.div`
-  height: 100%;
+  height: 100vh;
   width: 100%;
   min-width: 350px;
   max-width: 520px;

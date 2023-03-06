@@ -8,7 +8,7 @@
     rgba(244, 130, 65, 0) 89.5%
   );
   width: 370px;
-  height: 900px;
+  height: 100vh;
   max-width: 520px;
   margin: 0 auto;
 }
